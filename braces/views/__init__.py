@@ -1,6 +1,7 @@
 from __future__ import absolute_import
 
 from ._access import (
+    AccessMixin,
     AnonymousRequiredMixin,
     GroupRequiredMixin,
     LoginRequiredMixin,
@@ -39,6 +40,7 @@ from ._queries import (
 )
 
 __all__ = [
+    'AccessMixin',
     'AjaxResponseMixin',
     'AllVerbsMixin',
     'AnonymousRequiredMixin',
